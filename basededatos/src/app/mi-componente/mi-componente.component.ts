@@ -24,7 +24,14 @@ export class MiComponenteComponent {
       name: 'Soft Pinch Liquid Blush',
       imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/pdp-sku-Liquid-Blush-Dewy-Hope.jpg?v=1645133400',
       price: 39.99
-    }
+    },
+
+    {
+      name: 'Lip Soufflé Matte Lip Cream',
+      imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/lip-souffle-matte-lip-cream-kindness-sku-1440x1952.jpg?v=1697656670',
+      price: 39.99
+    },
+    
     //agregar +
   ];
 
