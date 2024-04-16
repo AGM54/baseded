@@ -11,17 +11,17 @@ import { CommonModule } from '@angular/common';
 export class MiComponenteComponent {
   products = [
     {
-      name: 'Producto 1',
+      name: 'Soft Pinch Luminous Powder Blush',
       imageUrl: 'https://www.rarebeauty.com/cdn/shop/files/ECOMM-SOFT-PINCH-LUMINOUS-POWDER-BLUSH-CHEER.jpg?v=1710549028',
       price: 19.99
     },
     {
-      name: 'Producto 2',
+      name: 'Perfect Strokes Universal Volumizing Mascara Mini',
       imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/Travel-Size-Mascara-Open-SKU.jpg?v=1629246975',
       price: 29.99
     },
     {
-      name: 'Producto 3',
+      name: 'Soft Pinch Liquid Blush',
       imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/pdp-sku-Liquid-Blush-Dewy-Hope.jpg?v=1645133400',
       price: 39.99
     }
