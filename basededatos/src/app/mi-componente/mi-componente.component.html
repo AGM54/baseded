@@ -1,3 +1,20 @@
-<p>mi-componenteeeeeeeeee works!</p>
-<!-- Dentro de tu archivo mi-componente.component.html -->
-<img src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg" alt="Descripción de la imagen">
+<!-- <p>RARE BEAUTY</p>
+Dentro de tu archivo mi-componente.component.html -->
+<!-- <body>
+<img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKp_Tvsd7Feo/v1/-1x-1.jpg" alt="Descripción de la imagen">
+</body> -->
+
+<p>RARE BEAUTY</p>
+<!-- Asumiendo que esta es la parte existente de tu archivo mi-componente.component.html -->
+<div class="products-container">
+  <!-- Repetir este bloque para cada producto, Angular se encargará de replicarlo con *ngFor -->
+  <div class="product" *ngFor="let product of products">
+    <img [src]="product.imageUrl" alt="{{ product.name }}">
+    <div class="product-details">
+      <p>{{ product.name }}</p>
+      <p class="price">{{ formatPrice(product.price) }}</p>
+
+      <button (click)="addToCart(product)">Agregar a Carrito</button>
+    </div>
+  </div>
+</div>
