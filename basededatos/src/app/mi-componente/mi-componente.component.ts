@@ -31,6 +31,30 @@ export class MiComponenteComponent {
       imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/lip-souffle-matte-lip-cream-kindness-sku-1440x1952.jpg?v=1697656670',
       price: 39.99
     },
+
+    {
+      name: 'Kind Words Matte Lipstick',
+      imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/kind-words-matte-lipstick-talented.jpg?v=1655864623',
+      price: 39.99
+    },
+
+    {
+      name: 'Stay Vulnerable Glossy Lip Balm',
+      imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/Glossy-Lip-Balm-NearlyNeutral-SKU.jpg?v=1608610737',
+      price: 39.99
+    },
+
+    {
+      name: 'Soft Pinch Tinted Lip Oil',
+      imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/soft-pinch-tinted-lip-oil-hope-1440x1952.jpg?v=1679094432',
+      price: 39.99
+    },
+    {
+      name: 'With Gratitude Dewy Lip Balm',
+      imageUrl: 'https://www.rarebeauty.com/cdn/shop/products/Dewy-Lip-APPRECIATE-SKU.jpg?v=1598651396',
+      price: 39.99
+    },
+
     
     //agregar +
   ];
